@@ -1,30 +1,13 @@
 {
-  "_from": "ssdp-ts",
-  "_id": "ssdp-ts@3.2.6",
-  "_inBundle": false,
-  "_integrity": "sha512-TXnicDU2qEEFwtjlDA7ZqQjUaZOr9Pr0TDhXAzDb2vKgvCgDxcxEX/4ps9vYyNy2lMDq+8M8ZNMt9wXdwDOBVQ==",
-  "_location": "/ssdp-ts",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "ssdp-ts",
-    "name": "ssdp-ts",
-    "escapedName": "ssdp-ts",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/ssdp-ts/-/ssdp-ts-3.2.6.tgz",
-  "_shasum": "8a97e51920120b70b332fb8f65f07489e30e64a5",
-  "_spec": "ssdp-ts",
-  "_where": "D:\\temp\\test",
+  "name": "@jc-lab/ssdp-ts",
+  "version": "3.2.6",
   "author": {
     "name": "Nicolas Penin"
+  },
+  "contributors": {
+    "name": "Joseph Lee",
+    "email": "development@jc-lab.net",
+    "url": "https://github.com/jc-lab"
   },
   "bugs": {
     "url": "https://github.com/npenin/node-ssdp/issues"
@@ -68,16 +51,14 @@
   ],
   "license": "MIT",
   "main": "./index",
-  "name": "ssdp-ts",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/npenin/node-ssdp.git"
+    "url": "git+https://github.com/jc-lab/ssdp-ts.git"
   },
   "scripts": {
     "coverage": "istanbul cover node_modules/.bin/_mocha -- test/lib --recursive",
     "prepublishOnly": "tsc -p .",
     "test": "mocha --recursive test"
   },
-  "typings": "./index.d.ts",
-  "version": "3.2.6"
+  "typings": "./index.d.ts"
 }
