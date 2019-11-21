@@ -1,0 +1,83 @@
+{
+  "_from": "ssdp-ts",
+  "_id": "ssdp-ts@3.2.6",
+  "_inBundle": false,
+  "_integrity": "sha512-TXnicDU2qEEFwtjlDA7ZqQjUaZOr9Pr0TDhXAzDb2vKgvCgDxcxEX/4ps9vYyNy2lMDq+8M8ZNMt9wXdwDOBVQ==",
+  "_location": "/ssdp-ts",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ssdp-ts",
+    "name": "ssdp-ts",
+    "escapedName": "ssdp-ts",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ssdp-ts/-/ssdp-ts-3.2.6.tgz",
+  "_shasum": "8a97e51920120b70b332fb8f65f07489e30e64a5",
+  "_spec": "ssdp-ts",
+  "_where": "D:\\temp\\test",
+  "author": {
+    "name": "Nicolas Penin"
+  },
+  "bugs": {
+    "url": "https://github.com/npenin/node-ssdp/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/async": "^2.4.0",
+    "@types/bluebird": "^3.5.25",
+    "@types/debug": "^4.1.0",
+    "@types/extend": "^3.0.0",
+    "@types/node": "^10.12.21",
+    "async": "^2.1.4",
+    "bluebird": "^3.4.7",
+    "debug": "^4.1.1",
+    "extend": "^3.0.0",
+    "ip": "^1.1.4"
+  },
+  "deprecated": false,
+  "description": "A node.js SSDP client and server library in typescript. (courtesy forked from node-ssdp)",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "mocha-istanbul": "^0.3.0",
+    "sinon": "^7.2.3"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://github.com/npenin/node-ssdp#readme",
+  "keywords": [
+    "ssdp",
+    "multicast",
+    "media",
+    "device",
+    "upnp"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "name": "ssdp-ts",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/npenin/node-ssdp.git"
+  },
+  "scripts": {
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- test/lib --recursive",
+    "prepublishOnly": "tsc -p .",
+    "test": "mocha --recursive test"
+  },
+  "typings": "./index.d.ts",
+  "version": "3.2.6"
+}
